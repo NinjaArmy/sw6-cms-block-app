@@ -1,0 +1,12 @@
+@include media-breakpoint-up(md) {
+    .ninja-grid-layout {
+        display: grid;
+        grid-gap: 20px;
+        width: 100%;
+        padding: 20px;
+        margin: auto;
+        &-2-1 {
+            grid-template-columns: 2fr 1fr;
+        }
+    }
+}

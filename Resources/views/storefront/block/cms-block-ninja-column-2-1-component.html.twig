@@ -1,0 +1,24 @@
+{% block ninja_column_1_3 %}
+	{% set columns = 2 %}
+	<div class="ninja-grid-layout ninja-grid-layout-2-1">
+		{% block block_ninja_column_left %}
+			{% set element = block.slots.getSlot('columnLeft') %}
+
+			<div data-cms-element-id="{{ element.id }}">
+				{% block ninja_column_left_inner %}
+					{% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
+				{% endblock %}
+			</div>
+		{% endblock %}
+
+		{% block block_ninja_column_right %}
+			{% set element = block.slots.getSlot('columnRight') %}
+
+			<div data-cms-element-id="{{ element.id }}">
+				{% block ninja_column_right_inner %}
+					{% sw_include "@Storefront/storefront/element/cms-element-" ~ element.type ~ ".html.twig" ignore missing %}
+				{% endblock %}
+			</div>
+		{% endblock %}
+	</div>
+{% endblock %}

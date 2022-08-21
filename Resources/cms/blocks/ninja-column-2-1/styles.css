@@ -1,0 +1,21 @@
+.sw-cms-preview-block-ninja-column-layout-2-1 {
+    display: flex;
+    justify-content: center;
+}
+.sw-cms-preview-block-ninja-columns-2-1 {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 2fr 1fr;
+    width: 100%;
+    margin: 0.5rem;
+    grid-template-rows: 50px;
+}
+.sw-cms-preview-block-ninja-columns-2-1 > div {
+    border: 2px dashed #1c43a3;
+    background-color: rgba(28,67,163,0.1); 
+}
+.sw-cms-block-ninja-column-2-1-component {
+    grid-template-columns: 2fr 1fr;
+    display: grid;
+    grid-gap: 15px;
+}

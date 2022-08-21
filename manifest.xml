@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/Framework/App/Manifest/Schema/manifest-1.0.xsd">
+    <meta>
+        <name>NINJACmsBlockApp</name>
+        <label>CMS Block App Example</label>
+        <label lang="de-DE">CMS Block App-Beispiel</label>
+        <description>CMS Block Example</description>
+        <description lang="de-DE">CMS Block Beispiel</description>
+        <author>Joschi Mehta</author>
+        <copyright>(c) by Ninja Army</copyright>
+        <version>1.0.0</version>
+        <license>MIT</license>
+        <icon>Resources/config/plugin.png</icon>
+    </meta>
+</manifest>

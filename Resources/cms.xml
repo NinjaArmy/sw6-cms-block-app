@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cms xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://raw.githubusercontent.com/shopware/platform/trunk/src/Core/Framework/App/Cms/Schema/cms-1.0.xsd">
+    <!-- IMPORTANT SLOTS ARE SORTED APLPHABETICALLY NO DOCS ON THIS!! -->
+    <blocks>
+        <!-- 2-1 Grid ALPHABETICAL -->
+        <block>
+            <name>ninja-column-2-1</name>
+            <category>text</category>
+            <label>2-1 from Tablet (md)</label>
+            <label lang="de-DE">2-1 ab Tablet (md)</label>
+
+            <slots>
+                 <slot name="columnLeft" type="text"> 
+                    <config>
+                        <config-value name="vertical-align" source="static" value="top"/>
+                    </config>
+                </slot>
+
+                <slot name="columnRight" type="text">
+                    <config>
+                        <config-value name="vertical-align" source="static" value="top"/>
+                    </config>
+                </slot>
+            </slots>
+
+            <default-config>
+                <margin-top>20px</margin-top>
+                <margin-right>20px</margin-right>
+                <margin-bottom>20px</margin-bottom>
+                <margin-left>20px</margin-left>
+                <sizing-mode>boxed</sizing-mode>
+            </default-config>
+        </block>
+    </blocks>
+</cms>
